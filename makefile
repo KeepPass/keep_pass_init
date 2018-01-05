@@ -45,3 +45,10 @@ update:
 	echo "Cleaning up..."
 	@rm -R keep.cpp
 	@rm -R get.cpp
+help:
+	echo "KeepPass Help:"
+	echo "make: Downloads & builds from source"
+	echo "make clean: Removes everything except makefile"
+	echo "make restore-bin: Restores binary files as .cpp files"
+	echo "make update: Updates from scratch"
+	echo "make help: Displays this menu"
